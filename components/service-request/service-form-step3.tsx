@@ -84,7 +84,7 @@ export default function ServiceFormStep3({ formData, prevStep, onSubmit }: Servi
         <ArrowLeft className="mr-2 h-4 w-4" />
         {labels.back}
         </Button>
-        <Button onClick={onSubmit}>
+        <Button onClick={()=>{alert("Submitted")}}>
           <Check className="mr-2 h-4 w-4" />
           {labels.submit}
         </Button>
