@@ -30,7 +30,7 @@ export default function ClientLayout({
         <meta name="color-scheme" content="light dark" />
         <meta property="og:title" content="Portfolio" />
 <meta property="og:description" content="My personal profile, displays my skills, experiences, and projects" />
-<meta property="og:image" content="/imags/10.jpg" />
+<meta property="og:image" content="https://github.com/user-attachments/assets/51b1d3c0-8f5a-42d4-bf95-147acd8a1093" />
 <meta property="og:url" content="portfolio-asimyasinomerahmeds-projects.vercel.app" />
       </head>
       <body className={`${cairo.className} antialiased transition-colors duration-300`}>
