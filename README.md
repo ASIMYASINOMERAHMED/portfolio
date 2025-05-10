@@ -1,8 +1,6 @@
-# Open Sources Profile V.1.2
-
 live Demo https://portfolio-asimyasinomerahmeds-projects.vercel.app/
 
-# React Profile
+# Overview
 
 This portfolio project is crafted using **React**, featuring key sections such as Home, Skills, Projects. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it ensures a highly responsive, optimized, and efficient web experience
 
