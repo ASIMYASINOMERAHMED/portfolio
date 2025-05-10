@@ -12,10 +12,10 @@ interface ServiceFormStep3Props {
     description: string
   }
   prevStep: () => void
-  onSubmit: () => void
+  // onSubmit: () => void
 }
 
-export default function ServiceFormStep3({ formData, prevStep, onSubmit }: ServiceFormStep3Props) {
+export default function ServiceFormStep3({ formData, prevStep }: ServiceFormStep3Props) {
 
   const labels = {
     title:"Summary",
