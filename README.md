@@ -1,21 +1,18 @@
-
 # Open Sources Profile V.1.2
 
-live Demo https://react-profile-gilt.vercel.app/
+live Demo portfolio-asimyasinomerahmeds-projects.vercel.app
 
-
-#  React Profile
+# React Profile
 
 This portfolio project is crafted using **React**, featuring key sections such as Home, Skills, Projects. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it ensures a highly responsive, optimized, and efficient web experience
-
 
 <!-- ## Project Structure
 
 The project is structured in a modular way, ensuring scalability and easy maintainability. Here’s a brief overview of the important files and folders:
 
 ```
-yacoubal-hardari-react-profile/  
-│  
+yacoubal-hardari-react-profile/
+│
 ├── app/                            # Main application files (pages, layout, etc.)
 │   ├── client.tsx                  # Client-side rendering entry point
 │   ├── globals.css                 # Global styles
@@ -37,7 +34,7 @@ yacoubal-hardari-react-profile/
 │   ├── not-found.tsx               # 404 page component (default "not found" page)
 │   ├── [...not-found]/             # Catch-all route for undefined routes
 │   │   └── page.tsx                # Page for undefined routes (custom 404 page)
-│  
+│
 ├── components/                     # Reusable components
 │   ├── about-me-section.tsx        # About Me section, for introducing the individual or company
 │   ├── animated-background.tsx     # Animated background component for visual appeal
@@ -90,21 +87,21 @@ yacoubal-hardari-react-profile/
 │       ├── input.tsx               # Input field component
 │       └── progress.tsx            # Progress bar component
 │       ├── alert.tsx               # Alert component for displaying important messages like success, warnings, or errors
-│       ├── dialog.tsx              # Dialog component for modal popups that focus user attention on specific tasks  
-│       ├── label.tsx               # Label component for associating text descriptions with form elements, enhancing accessibility  
-│       ├── select.tsx              # Select component for dropdown list selection of predefined options  
-│       ├── tabs.tsx                # Tabs component for allowing users to switch between different views or sections  
+│       ├── dialog.tsx              # Dialog component for modal popups that focus user attention on specific tasks
+│       ├── label.tsx               # Label component for associating text descriptions with form elements, enhancing accessibility
+│       ├── select.tsx              # Select component for dropdown list selection of predefined options
+│       ├── tabs.tsx                # Tabs component for allowing users to switch between different views or sections
 │       └── textarea.tsx            # Textarea component for multiline text input, typically for longer messages or descriptions
-│  
+│
 ├── lib/                            # Utility functions
 │   └── utils.ts                    # Helper functions, for commonly used tasks
-│  
+│
 ├── public/                         # Public static files (images, etc.)
 │   └── imags/                      # Blog images stored here for public access
 │       ├── 1.webp                  # Blog image 1
 │       ├── 5.webp                  # Blog image 5
 │       └── 7.webp                  # Blog image 7
-│  
+│
 ├── package.json                    # Project dependencies and scripts
 ├── tailwind.config.js              # Tailwind CSS configuration (JS)
 ├── tailwind.config.ts              # Tailwind CSS configuration (TS)

@@ -41,7 +41,7 @@ export default function ServiceFormStep3({ formData, prevStep, onSubmit }: Servi
         <div>
           <h4 className="font-medium mb-2" >{labels.personalInfo}</h4>
           <div className="grid grid-cols-2 gap-x-4 gap-y-2">
-            <div>
+              <div>
               <p className="text-sm text-muted-foreground" >{labels.name}</p>
               <p>{formData.name}</p>
             </div>
