@@ -167,7 +167,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 id: "project2",
                 title: "Online Store",
                 description: "Full stack Online Store with inventory, orders management, Prediction system for Total sales & Revenue",
-                image: "/imags/blog/8.png",
+                image: "/imags/8.png",
                 tags: ["SQL Server", "C# .net", "windows forms"],
                 githubLink: "https://github.com/ASIMYASINOMERAHMED/Online-Store-",
                 delay: 0.1,
