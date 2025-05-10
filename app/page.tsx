@@ -32,7 +32,7 @@ export default function Home() {
                 Hello <AnimatedText text="I'm Asim Yasin" className="text-primary" />
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-                I'm a Software developer with 3+ years of experience in building web applications and desktop applications
+                I&apos;m a Software developer with 3+ years of experience in building web applications and desktop applications
               </p>
               <Card className="border-primary/20 overflow-hidden hover-scale">
             <div className="md:flex">
@@ -306,7 +306,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
         <div className="container">
           <div className="text-center max-w-2xl mx-auto">
             <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-            <p className="text-light-foreground/80 mb-8">Let's work together to turn your ideas into a digital reality</p>
+            <p className="text-light-foreground/80 mb-8">Let&apos;s work together to turn your ideas into a digital reality</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <WhatsAppButton size="lg" className="hover-lift" />
               <Button
