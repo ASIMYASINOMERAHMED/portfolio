@@ -28,6 +28,10 @@ export default function ClientLayout({
     <html lang="en" dir="ltr" suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light dark" />
+        <meta property="og:title" content="Portfolio" />
+<meta property="og:description" content="My personal profile, displays my skills, experiences, and projects" />
+<meta property="og:image" content="/imags/10.jpg" />
+<meta property="og:url" content="portfolio-asimyasinomerahmeds-projects.vercel.app" />
       </head>
       <body className={`${cairo.className} antialiased transition-colors duration-300`}>
         <ThemeProvider

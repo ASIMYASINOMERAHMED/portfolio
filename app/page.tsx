@@ -32,7 +32,7 @@ export default function Home() {
                 Hello <AnimatedText text="I'm Asim Yasin" className="text-primary" />
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl">
-                I&apos;m a Software developer with 3+ years of experience in building web applications and desktop applications
+              I&apos;m an enthusiastic software developer with over three years of experience in building web and desktop applications.
               </p>
               <Card className="border-primary/20 overflow-hidden hover-scale">
             <div className="md:flex">
