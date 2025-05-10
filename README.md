@@ -1,5 +1,3 @@
-# Open Sources Profile V.1.2
-
 live Demo https://portfolio-asimyasinomerahmeds-projects.vercel.app/
 
 # React Profile
