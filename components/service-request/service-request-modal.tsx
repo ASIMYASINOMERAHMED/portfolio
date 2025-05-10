@@ -45,7 +45,7 @@ export default function ServiceRequestModal() {
       const message = prepareWhatsAppMessage(formData);
       await new Promise((resolve) => setTimeout(resolve, 1500)); // Simulated delay
   
-      const phoneNumber = "967775042349"; // Replace with actual number
+      const phoneNumber = "971563350406"; // Replace with actual number
       const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   
       if (!whatsappUrl) {
