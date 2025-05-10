@@ -12,10 +12,10 @@ interface ServiceFormStep3Props {
     description: string
   }
   prevStep: () => void
-  // onSubmit: () => void
+  onSubmit: () => void
 }
 
-export default function ServiceFormStep3({ formData, prevStep }: ServiceFormStep3Props) {
+export default function ServiceFormStep3({ formData, prevStep, onSubmit }: ServiceFormStep3Props) {
 
   const labels = {
     title:"Summary",
@@ -84,7 +84,7 @@ export default function ServiceFormStep3({ formData, prevStep }: ServiceFormStep
         <ArrowLeft className="mr-2 h-4 w-4" />
         {labels.back}
         </Button>
-        <Button onClick={()=>{alert("Submitted")}}>
+        <Button onClick={onSubmit}>
           <Check className="mr-2 h-4 w-4" />
           {labels.submit}
         </Button>
