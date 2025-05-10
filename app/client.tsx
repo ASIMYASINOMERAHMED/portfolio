@@ -32,7 +32,7 @@ export default function ClientLayout({
       <body className={`${cairo.className} antialiased transition-colors duration-300`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange={false}
           storageKey="english-profile-theme"
