@@ -8,23 +8,6 @@ live Demo https://react-profile-gilt.vercel.app/
 
 This portfolio project is crafted using **React**, featuring key sections such as Home, Skills, Projects. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it ensures a highly responsive, optimized, and efficient web experience
 
-Screenshots
-Here are some screenshots showcasing the design of the profile:
-
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/9ffb5d9e-238d-46b5-ba1a-6ef3943bfa63" alt="Home Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/f29bbf3d-b1f5-4703-ae9f-ad181747a3d6" alt="Blog Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/c9c5d0ca-a512-4fe4-90de-bc5b394c2ac0" alt="Blog Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/76267968-d73a-4f8e-93aa-7b7c3778e601" alt="About Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/99d3986b-6549-48f1-8fc8-e654a7e8f642" alt="Blog Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/0485d445-8430-41f2-b8a5-23ac79ab1a66" alt="Blog Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-    <td><img src="https://github.com/user-attachments/assets/79b7d691-1ed6-463a-9477-f026e084b8b7" alt="Blog Page" style="width: 100%; height: auto; border-radius: 8px;"/></td>
-  </tr>
-
-  
-</table>
 
 ## Project Structure
 
@@ -142,8 +125,8 @@ To get started with this project, follow the steps below:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/YacoubAl-hardari/react-profile.git
-cd react-profile
+git clone https://github.com/ASIMYASINOMERAHMED/portfolio.git
+cd portfolio
 ```
 
 ### 2. Install dependencies
