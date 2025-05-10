@@ -9,7 +9,7 @@ live Demo https://react-profile-gilt.vercel.app/
 This portfolio project is crafted using **React**, featuring key sections such as Home, Skills, Projects. Built with **Next.js**, **TypeScript**, and **Tailwind CSS**, it ensures a highly responsive, optimized, and efficient web experience
 
 
-## Project Structure
+<!-- ## Project Structure
 
 The project is structured in a modular way, ensuring scalability and easy maintainability. Here’s a brief overview of the important files and folders:
 
@@ -114,7 +114,7 @@ yacoubal-hardari-react-profile/
 ├── eslint.config.mjs               # ESLint configuration for linting JavaScript/TypeScript code
 └── components.json                 # Component list (used for documentation)
 
-```
+``` -->
 
 ## Getting Started
 
@@ -164,8 +164,7 @@ Now, open your browser and navigate to [http://localhost:3000](http://localhost:
 To begin modifying the application, you can edit the following files:
 
 - **Home Page**: `app/page.tsx`
-- **About Me Page**: `app/about/page.tsx`
-- **Blog Page**: `app/blog/page.tsx`
+- **Projects Page**: `app/projects/page.tsx`
 
 Changes to these pages will be automatically reflected when you save the files.
 
@@ -175,15 +174,11 @@ Changes to these pages will be automatically reflected when you save the files.
 
 ### **Home Page**
 
-The Home page is the entry point of your profile, featuring a welcome message, a brief introduction, and links to other sections like About Me and Blog.
+The Home page serves as the main gateway, offering a warm welcome, a concise overview, and convenient access to sections such as Projects.
 
-### **About Me Page**
+### **Projects Page**
 
-The About Me page showcases personal information, including your background, skills, experiences, and career highlights.
-
-### **Blog Page**
-
-The Blog page lists all blog posts and articles, with each post linked to a detailed view.
+The Projects page lists all projects, with each project linked to a detailed view on github.
 
 ---
 
