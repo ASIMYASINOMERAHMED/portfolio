@@ -316,7 +316,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 asChild
               >
                 {/* Put your Resume link here */}
-                <Link href="#" download target="_blank" rel="noopener noreferrer">
+                <Link href="/imags/Asim Yasin CV.pdf" download target="_blank" rel="noopener noreferrer">
                   <Download className="ml-2 h-4 w-4" /> Download Resume
                 </Link>
               </Button>
