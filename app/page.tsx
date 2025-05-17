@@ -154,17 +154,26 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
           <SectionHeading title="Projects" subtitle="Here are some projects I have developed" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              {
+               {
                 id: "project1",
+                title: "Tasky app",
+                description: "Tasky app is a simple and user-friendly tasks and notes tracker.",
+                image: "/imags/todo.jpg",
+                tags: ["React","Material UI", "Tailwind CSS"],
+                githubLink: "https://github.com/ASIMYASINOMERAHMED/tasky",
+                delay: 0.1,
+              },
+              {
+                id: "project2",
                 title: "Ecommerce Store",
                 description: "Full stack Ecommerce Store with inventory, orders management, Prediction system for Total sales & Revenue",
                 image: "/imags/3.jpg",
                 githubLink: "https://github.com/ASIMYASINOMERAHMED/E-commerce-website",
                 tags: ["SQL Server", "C# .net", "Rest Api", "HTML","CSS","Javascript"],
-                delay: 0.1,
+                delay: 0.2,
               },
               {
-                id: "project2",
+                id: "project3",
                 title: "Online Store",
                 description: "Full stack Online Store with inventory, orders management, Prediction system for Total sales & Revenue",
                 image: "/imags/8.png",
@@ -172,15 +181,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 githubLink: "https://github.com/ASIMYASINOMERAHMED/Online-Store-",
                 delay: 0.1,
               },
-              {
-                id: "project3",
-                title: "Spoken Gloves",
-                description: "Spoken Gloves Translate sign language to text for deaf people",
-                image: "/imags/1.jpeg",
-                githubLink: "https://github.com/ASIMYASINOMERAHMED/Spoken-Glove-Project",
-                tags: ["C# .net","Arduino","Windows Forms","flex sensor","speaker", "SQL Server"],
-                delay: 0.2,
-              },
+             
             ].map((project) => (
               <AnimatedSection key={project.id} delay={project.delay} className="hover-scale">
                 <ProjectCard

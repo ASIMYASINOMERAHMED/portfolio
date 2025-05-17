@@ -14,6 +14,15 @@ import AnimatedText from "@/components/animated-text"
 const projects = [
   {
     id: "project1",
+    title: "Tasky app",
+    description: "Tasky app is a simple and user-friendly tasks and notes tracker.",
+    image: "/imags/todo.jpg",
+    tags: ["React","Material UI", "Tailwind CSS"],
+    githubLink: "https://github.com/ASIMYASINOMERAHMED/tasky",
+    delay: 0.1,
+  },
+  {
+    id: "project2",
     title: "Ecommerce Store",
     description: "Full stack Ecommerce Store with inventory, orders management, Prediction system for Total sales & Revenue",
     image: "/imags/3.jpg",
@@ -22,16 +31,16 @@ const projects = [
     delay: 0.1,
   },
   {
-    id: "project2",
+    id: "project3",
     title: "Online Store",
     description: "Full stack Online Store with inventory, orders management, Prediction system for Total sales & Revenue",
     image: "/imags/8.png",
     tags: ["SQL Server", "C# .net", "windows forms"],
     githubLink: "https://github.com/ASIMYASINOMERAHMED/Online-Store-",
-    delay: 0.1,
+    delay: 0.2,
   },
   {
-    id: "project3",
+    id: "project4",
     title: "Spoken Gloves",
     description: "Spoken Gloves Translate sign language to text for deaf people",
     image: "/imags/1.jpeg",
@@ -40,16 +49,16 @@ const projects = [
     delay: 0.2,
   },
   {
-    id: "project4",
+    id: "project5",
     title: "Driving Licenses Managment Project (DVLD)",
     description: "The system was designed to incorporate a range of management functionalities including user, people, application types, tests types, and license types, offering a holistic solution for departmental needs. It was specifically customized to feature vision, written, and practical tests, optimizing license procedures and improving overall user satisfaction.",
     image: "/imags/2.jpeg",
     tags: ["SQL Server", "C# .net", "windows forms"],
     githubLink: "https://github.com/ASIMYASINOMERAHMED/Driving-Licenses-Managment-Project",
-    delay: 0.2,
+    delay: 0.3,
   },
   {
-    id: "project5",
+    id: "project6",
     title: "Math Game",
     description: " Constructed an interactive Math Game in C# with customizable question count, operation types, and time limits. Designed an intuitive and visually appealing user interface for seamless gameplay. Created detailed quiz reports, providing results and correct answers for enhanced learning and feedback.",
     image: "/imags/1.avif",
@@ -58,13 +67,13 @@ const projects = [
     delay: 0.3,
   },
   {
-    id: "project6",
+    id: "project7",
     title: "Simple Banking System",
     description: " Developed a Banking System Project independently, featuring user management and transaction processing capabilities. Established secure login tracking, SQL database storage for critical data.",
     image: "/imags/1.webp",
     tags: ["C# .net", "windows forms", "SQL Server"],
     githubLink: "https://github.com/ASIMYASINOMERAHMED/Bank-system-Project",
-    delay: 0.3,
+    delay: 0.4,
   }
 ]
 
