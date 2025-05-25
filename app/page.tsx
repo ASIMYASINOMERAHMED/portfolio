@@ -156,15 +156,24 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
             {[
                {
                 id: "project1",
+                title: "Weather app",
+                description: "Weather app is a simple and user-friendly app to check the weather.",
+                image: "/imags/Weather.jpg",
+                tags: ["React","Material UI", "axios API", "i18next"],
+                githubLink: "https://weather-app-eight-tan-36.vercel.app/",
+                delay: 0.1,
+              },
+               {
+                id: "project2",
                 title: "Tasky app",
                 description: "Tasky app is a simple and user-friendly tasks and notes tracker.",
                 image: "/imags/todo.jpg",
                 tags: ["React","Material UI", "Tailwind CSS"],
-                githubLink: "https://github.com/ASIMYASINOMERAHMED/tasky",
+                githubLink: "https://tasky-drab.vercel.app/",
                 delay: 0.1,
               },
               {
-                id: "project2",
+                id: "project3",
                 title: "Ecommerce Store",
                 description: "Full stack Ecommerce Store with inventory, orders management, Prediction system for Total sales & Revenue",
                 image: "/imags/3.jpg",
@@ -172,15 +181,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 tags: ["SQL Server", "C# .net", "Rest Api", "HTML","CSS","Javascript"],
                 delay: 0.2,
               },
-              {
-                id: "project3",
-                title: "Online Store",
-                description: "Full stack Online Store with inventory, orders management, Prediction system for Total sales & Revenue",
-                image: "/imags/8.png",
-                tags: ["SQL Server", "C# .net", "windows forms"],
-                githubLink: "https://github.com/ASIMYASINOMERAHMED/Online-Store-",
-                delay: 0.1,
-              },
+            
              
             ].map((project) => (
               <AnimatedSection key={project.id} delay={project.delay} className="hover-scale">
