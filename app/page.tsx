@@ -156,6 +156,15 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
             {[
                {
                 id: "project1",
+                title: "Car Rental Admin Side",
+                description: "Car Rental System is a full stack application that allows users to rent cars.",
+                image: "/imags/CarRental.jpg",
+                tags: ["Next.js","Shadcn UI", "Tailwind CSS", ".NET Core", "SQL Server", "Rest API", "JWT", "HttpOnly Cookies", "ngrok"],
+                githubLink: "https://car-rental-admin-jb1w.vercel.app/",
+                delay: 0.1,
+              },
+               {
+                id: "project2",
                 title: "Weather app",
                 description: "Weather app is a simple and user-friendly app to check the weather.",
                 image: "/imags/Weather.jpg",
@@ -164,16 +173,16 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 delay: 0.1,
               },
                {
-                id: "project2",
+                id: "project3",
                 title: "Tasky app",
                 description: "Tasky app is a simple and user-friendly tasks and notes tracker.",
                 image: "/imags/todo.jpg",
                 tags: ["React","Material UI", "Tailwind CSS"],
                 githubLink: "https://tasky-drab.vercel.app/",
-                delay: 0.1,
+                delay: 0.2,
               },
               {
-                id: "project3",
+                id: "project4",
                 title: "Ecommerce Store",
                 description: "Full stack Ecommerce Store with inventory, orders management, Prediction system for Total sales & Revenue",
                 image: "/imags/3.jpg",
