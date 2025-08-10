@@ -24,7 +24,7 @@ const projects = [
    {
     id: "project2",
     title: "Car Rental Admin Side",
-    description: "A responsive web dashboard for managing vehicles, bookings, and user data. Built with a focus on usability and backend integration, it streamlines operations for rental administrators. enter credentials: username: Asim123 password: As93im for login",
+    description: "A responsive web dashboard for managing vehicles, bookings, and user data. Built with a focus on usability and backend integration, it streamlines operations for rental administrators. enter credentials: username: Admin password: Admin123 for login",
     image: "/imags/CarRentalAdmin.png",
     tags: ["Next.js","Shadcn UI", "Tailwind CSS", ".NET Core", "SQL Server", "Rest API", "JWT", "HttpOnly Cookies"],
     githubLink: "https://car-rental-admin-jb1w.vercel.app/",

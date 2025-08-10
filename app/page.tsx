@@ -57,7 +57,7 @@ export default function Home() {
                     I have been working in Software development for more than <span className="font-bold text-primary">3 years</span>،
  driven by a passion for building scalable and maintainable software products. My journey began with C++, where I developed a strong programming foundation. From there, I transitioned to C# and Windows Forms, creating simple desktop applications and gradually expanding my expertise.
 To enhance my skills in database management, I learned SQL Server, gaining a solid foundation in writing complex SQL queries, Common Table Expressions (CTE), and stored procedures. This enabled me to build larger projects that effectively leveraged the power of SQL Server.
-As my experience grew, I explored backend development, learning REST API principles and broadening my understanding of web technologies. I then delved into HTML, CSS, JavaScript, and TypeScript, followed by Node.js, Express.js, MongoDB, and React.js, allowing me to develop dynamic and interactive web applications.
+As my experience grew, I explored backend development, learning REST API principles and broadening my understanding of web technologies. I then delved into HTML, CSS, JavaScript, and TypeScript, allowing me to develop dynamic and interactive web applications.
 Continuing my growth, I expanded my knowledge of modern frameworks such as React and Next.js, further refining my ability to build efficient, high-performance applications.
 
                   </p>
@@ -111,7 +111,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
       {/* Services Section */}
       <AnimatedSection className="py-5" id="services">
         <div className="container">
-          <SectionHeading title="Services Offered" subtitle="I specialize in comprehensive web development solutions, covering both backend and frontend development to build dynamic and responsive applications. Additionally, I have expertise in database development, ensuring efficient data management and storage solutions, as well as data analysis, transforming raw data into actionable insights" />
+          <SectionHeading title="Services Offered" subtitle="I specialize in comprehensive web development solutions, covering both backend and frontend development to build dynamic and responsive applications. Additionally, I have expertise in database development, ensuring efficient data management and storage solutions" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
@@ -123,22 +123,22 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
               },
               {
                 title: "Backend Development",
-                description: "I can help you build scalable and maintainable backend services using C# .net and Node.js and Express.js",
+                description: "I can help you build scalable and maintainable backend services using C# .net",
                 icon: Code,
                 delay: 0.1,
               },
               {
                 title: "Database Design",
-                description: "I can help you design and manage databases using SQL and NoSQL technologies (SQL Server, MongoDB, PostgreSQL)",
+                description: "I can help you design and manage databases using SQL technologies (SQL Server)",
                 icon: Database,
                 delay: 0.3,
               },
-              {
-                title: "Data Analysis",
-                description: "I can help you analyze data and create interactive information dashboards to help you make better decisions",
-                icon: LineChart,
-                delay: 0.4,
-              }
+              // {
+              //   title: "Data Analysis",
+              //   description: "I can help you analyze data and create interactive information dashboards to help you make better decisions",
+              //   icon: LineChart,
+              //   delay: 0.4,
+              // }
             ].map((service, index) => (
               <AnimatedSection key={index} delay={service.delay} className="hover-scale">
                 <ServiceCard title={service.title} description={service.description} icon={service.icon} />
@@ -157,7 +157,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 {
                   id: "project1",
                   title: "Car Rental Client Side",
-                  description: "A sleek React Native application that allows users to browse available cars, select rental dates, and complete bookings with Stripe. It features JWT-based authentication. You can try it out using Expo Go:Launch Mobile App",
+                  description: "A sleek React Native application that allows users to browse available cars, select rental dates, and complete bookings with Stripe. It features JWT-based authentication. You can try it out using Expo Go:Launch Mobile App using this url: exp://u.expo.dev/84eddfd1-8ee0-4291-a4d0-062083ca6df5/group/2404d5a5-6b72-4747-8098-558dd9caef14",
                   image: "/imags/CarRental.jpg",
                   tags: ["React Native","Expo Go", "Stripe", "JWT",".NET Core", "SQL Server", "Rest API"],
                   githubLink: "exp://u.expo.dev/84eddfd1-8ee0-4291-a4d0-062083ca6df5/group/9800dd21-58e4-4354-a31e-2167443b4aec",
@@ -166,7 +166,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                {
                 id: "project2",
                 title: "Car Rental Admin Side",
-                description: "A responsive web dashboard for managing vehicles, bookings, and user data. Built with a focus on usability and backend integration, it streamlines operations for rental administrators. enter credentials: username: Asim123 password: As93im for login",
+                description: "A responsive web dashboard for managing vehicles, bookings, and user data. Built with a focus on usability and backend integration, it streamlines operations for rental administrators. enter credentials: username: Admin password: Admin123 for login",
                 image: "/imags/CarRentalAdmin.png",
                 tags: ["Next.js","Shadcn UI", "Tailwind CSS", ".NET Core", "SQL Server", "Rest API", "JWT", "HttpOnly Cookies"],
                 githubLink: "https://car-rental-admin-jb1w.vercel.app/",
