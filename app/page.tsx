@@ -154,22 +154,22 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
           <SectionHeading title="Projects" subtitle="Here are some projects I have developed" />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-               {
-                id: "project1",
-                title: "Car Rental Admin Side",
-                description: "Car Rental System is a full stack application that allows users to rent cars.",
-                image: "/imags/CarRental.jpg",
-                tags: ["Next.js","Shadcn UI", "Tailwind CSS", ".NET Core", "SQL Server", "Rest API", "JWT", "HttpOnly Cookies", "ngrok"],
-                githubLink: "https://car-rental-admin-jb1w.vercel.app/",
-                delay: 0.1,
-              },
+                {
+                  id: "project1",
+                  title: "Car Rental Client Side",
+                  description: "A sleek React Native application that allows users to browse available cars, select rental dates, and complete bookings with Stripe. It features JWT-based authentication. You can try it out using Expo Go:Launch Mobile App",
+                  image: "/imags/CarRental.jpg",
+                  tags: ["React Native","Expo Go", "Stripe", "JWT",".NET Core", "SQL Server", "Rest API"],
+                  githubLink: "exp://u.expo.dev/84eddfd1-8ee0-4291-a4d0-062083ca6df5/group/9800dd21-58e4-4354-a31e-2167443b4aec",
+                  delay: 0.1,
+                },
                {
                 id: "project2",
-                title: "Weather app",
-                description: "Weather app is a simple and user-friendly app to check the weather.",
-                image: "/imags/Weather.jpg",
-                tags: ["React","Material UI", "axios API", "i18next"],
-                githubLink: "https://weather-app-eight-tan-36.vercel.app/",
+                title: "Car Rental Admin Side",
+                description: "A responsive web dashboard for managing vehicles, bookings, and user data. Built with a focus on usability and backend integration, it streamlines operations for rental administrators. enter credentials: username: Asim123 password: As93im for login",
+                image: "/imags/CarRentalAdmin.png",
+                tags: ["Next.js","Shadcn UI", "Tailwind CSS", ".NET Core", "SQL Server", "Rest API", "JWT", "HttpOnly Cookies"],
+                githubLink: "https://car-rental-admin-jb1w.vercel.app/",
                 delay: 0.1,
               },
                {
@@ -181,15 +181,7 @@ Continuing my growth, I expanded my knowledge of modern frameworks such as React
                 githubLink: "https://tasky-drab.vercel.app/",
                 delay: 0.2,
               },
-              {
-                id: "project4",
-                title: "Ecommerce Store",
-                description: "Full stack Ecommerce Store with inventory, orders management, Prediction system for Total sales & Revenue",
-                image: "/imags/3.jpg",
-                githubLink: "https://github.com/ASIMYASINOMERAHMED/E-commerce-website",
-                tags: ["SQL Server", "C# .net", "Rest Api", "HTML","CSS","Javascript"],
-                delay: 0.2,
-              },
+      
             
              
             ].map((project) => (
