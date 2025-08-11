@@ -15,7 +15,7 @@ const projects = [
   {
     id: "project1",
     title: "Car Rental Client Side",
-    description: "A sleek React Native application that allows users to browse available cars, select rental dates, and complete bookings with Stripe. It features JWT-based authentication. You can try it out using Expo Go:Launch Mobile App",
+    description: "A sleek React Native application that allows users to browse available cars, select rental dates, and complete bookings with Stripe. It features JWT-based authentication. You can try it out using Expo Go:Launch Mobile App using this url: exp://u.expo.dev/84eddfd1-8ee0-4291-a4d0-062083ca6df5/group/2404d5a5-6b72-4747-8098-558dd9caef14",
     image: "/imags/CarRental.jpg",
     tags: ["React Native","Expo Go", "Stripe", "JWT",".NET Core", "SQL Server", "Rest API"],
     githubLink: "exp://u.expo.dev/84eddfd1-8ee0-4291-a4d0-062083ca6df5/group/9800dd21-58e4-4354-a31e-2167443b4aec",
